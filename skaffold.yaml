@@ -2,7 +2,7 @@ apiVersion: skaffold/v1beta9
 kind: Config
 build:
   artifacts:
-  - image: go-scaffold-exercise
+    - image: go-skaffold-exercise
   local:
     useBuildkit: true
 deploy:

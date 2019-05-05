@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: exercise
-          image: go-scaffold-exercise:latest
+          image: go-skaffold-exercise:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
