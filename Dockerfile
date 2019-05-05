@@ -13,7 +13,7 @@ FROM debian:stretch
 
 WORKDIR /go/src/github.com/cockscomb/go-skaffold-exercise
 
-EXPOSE 8080
+EXPOSE 80
 
 COPY --from=builder /go/src/github.com/cockscomb/go-skaffold-exercise/server .
 

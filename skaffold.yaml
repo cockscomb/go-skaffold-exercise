@@ -1,0 +1,10 @@
+apiVersion: skaffold/v1beta9
+kind: Config
+build:
+  artifacts:
+  - image: go-scaffold-exercise
+  local:
+    useBuildkit: true
+deploy:
+  kustomize:
+    path: k8s
